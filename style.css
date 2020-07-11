@@ -1,0 +1,252 @@
+*{margin:0; padding:0;}
+
+body{
+	font-family:sans-sarif, Arial ;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s;
+}
+a{
+	text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p{
+	line-height:150%;
+	margin-bottom:2em;
+}
+li{
+	list-style-type:none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+.fix{
+	overflow:hidden;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.container_full{
+	width:100%;
+}
+.container{
+	width:980px;
+	display:block;
+	margin:0 auto;
+}
+/*-----
+এই সাইট এর gradint গুলা আমি ও খুব বেশি বুঝি নাই আমি একটা সাইট থেকে বানিয়ে ব্যবহার করেছি 
+site link:https://cssgradint.io
+-----*/
+/*------section1 style start-----*/
+.section1_bg{
+	background: url(bg/header-bg.png) no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	height: 755px;
+}
+.section1_bg div #section1 div{
+	width: 50%;
+}
+.section1_bg div #section1 div.section1_left_text{
+	margin-top: 190px;
+}
+.section1_bg div #section1 div.section1_left_text h2{
+	font-size: 35px;
+	color: #202428;
+}
+.section1_bg div #section1 div.section1_left_text h1{
+	font-size: 55px;
+	color:#EC4C7A;
+	font-weight: bold;
+	margin-bottom: 40px
+}
+.section1_bg div #section1 div.section1_left_text p{
+	font-size: 16px;
+	color:#797979;
+	margin-bottom: 40px
+}
+.section1_bg div #section1 div.section1_left_text a{
+	padding: 15px 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 8px;
+	background: rgb(236,80,148);
+	background: -moz-linear-gradient(90deg, rgba(236,80,148,1) 0%, rgba(241,59,218,1) 50%, rgba(255,0,121,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(236,80,148,1) 0%, rgba(241,59,218,1) 50%, rgba(255,0,121,1) 100%);
+	background: linear-gradient(90deg, rgba(236,80,148,1) 0%, rgba(241,59,218,1) 50%, rgba(255,0,121,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec5094",endColorstr="#ff0079",GradientType=1);  
+}
+.section1_bg div #section1 div.section1_right_images img{
+	width: 100%;
+	margin-top: 100px;
+}
+/*------section1 style end-----*/
+
+/*------section2 style start-----*/
+.section2_bg{
+	background: url(bg/biography-bg.png) no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 615px;
+}
+.section2_bg div #section2 div.section2_right_text {
+	margin-top: 125px;
+	width: 50%;
+}
+.section2_bg div #section2 div.section2_right_text h2{
+	font-size: 35px;
+	color: #202428;
+}
+.section2_bg div #section2 div.section2_right_text p{
+	font-size: 16px;
+	color:#797979;
+	margin-bottom: 40px
+}
+.section2_bg div #section2 div.section2_right_text a{
+	padding: 15px 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 8px; 
+	background: rgb(236,80,148);
+	background: -moz-linear-gradient(90deg, rgba(236,80,148,1) 0%, rgba(241,59,218,1) 50%, rgba(255,0,121,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(236,80,148,1) 0%, rgba(241,59,218,1) 50%, rgba(255,0,121,1) 100%);
+	background: linear-gradient(90deg, rgba(236,80,148,1) 0%, rgba(241,59,218,1) 50%, rgba(255,0,121,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec5094",endColorstr="#ff0079",GradientType=1); 
+}
+.section2_bg div #section2 div.section2_left_images{
+	margin-top: 60px;
+	width: 42%;
+}
+.section2_bg div #section2 div.section2_left_images img{
+	width: 100%;
+}
+/*------section2 style end-----*/
+
+/*------section2 style start-----*/
+.section3_bg{
+	background: url(bg/latest-work-bg.png) no-repeat;
+	background-size: 100%;
+	height: 645px;
+}
+.section3_bg div #section3 h2{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 170px;
+	font-weight: bold;
+}
+.section3_bg div #section3 .section3_images_section img{
+	width: 32%;
+	float: left;
+	margin-right: 1.5%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	transition: all 0.6s;
+}
+.section3_bg div #section3 .section3_images_section img:hover{
+	box-shadow: 3px 5px 7px 0px #b7b6b6;
+}
+.section3_bg div #section3 .section3_images_section img:last-child{
+	margin-right: 0%;
+}
+/*------section3 style end-----*/
+
+.footer_bg{
+	background: url(bg/footer-bg.png) no-repeat;
+	background-size: 100%;
+	height: 800px;
+	text-align: center;
+}
+.footer_bg div #footer .footer_top .footer_top_h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+.footer_bg #footer .footer_top .client_detils_and_text .client_detils h2{
+	color: #202428;
+	font-size: 22px;
+}
+.footer_bg #footer .footer_top .client_detils_and_text .client_detils h3{
+	color: #757575;
+	font-size: 17px;
+	margin-bottom: 35px;
+}
+.footer_bg #footer .footer_top .client_detils_and_text .client_text span{
+	color: #333333;
+	font-size: 20px;
+	width: 422px;
+	display: inline-block;
+	margin-bottom: 70px;
+}
+.footer_bg #footer .footer_top .client_detils_and_text .email_info {
+	background: rgb(236,80,148);
+	background: linear-gradient(90deg, rgba(236,80,148,1) 0%, rgba(236,81,150,1) 0%, rgba(237,75,114,1) 100%); 
+	display: inline-block;
+	padding: 40px 180px;
+	color: #fff;
+	border-radius: 15px;
+	margin-bottom: 200px;
+}
+.footer_bg #footer .footer_text{
+	margin-bottom: 30px;
+}
+.footer_bg #footer .footer_text p{
+	line-height: 0;
+	margin-bottom: 20px;
+	color: #707070;
+}
+.footer_bg #footer .footer_text span{
+	color: #707070;
+}
+.footer_bg #footer .footer_text span a{
+	color: #00a66f;
+	transition: all ease 0.4s;
+}
+.footer_bg #footer .footer_text span a:hover{
+	color: #616161;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
